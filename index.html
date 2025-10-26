@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Digital EPP Bomberos | Catálogo Interactivo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="portada">
+        <h1>EPP: El Escudo del Bombero</h1>
+        <p>Catálogo Interactivo de Equipos de Protección Personal y sus Estándares Internacionales</p>
+        
+        <div class="info-proyecto">
+            <p class="frase-epp">"La armadura del bombero: Protección, Resistencia y Regulación bajo fuego."</p>
+            <div class="integrantes-grid">
+                <div>
+                    <strong>Integrantes:</strong>
+                    <ul class="lista-sin-puntos">
+                        <li>Cesar Garcia Barreto</li>
+                        <li>Mildred Adriana Osorio Delgadillo</li>
+                        <li>Miguel Eduardo Arias Rodriguez</li>
+                        <li>David Montaño Hernandez</li>
+                    </ul>
+                </div>
+                <div>
+                    <strong>Detalles del Curso:</strong>
+                    <ul class="lista-sin-puntos">
+                        <li>Materia: Seguridad Industrial</li>
+                        <li>Cuatrimestre: 7°</li>
+                        <li>Profa: Peña Guerrero Maria del Pilar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenido-revista">
+
+        <section class="seccion-principal">
+            <h2><i class="fas fa-hand-pointer"></i> Fichas Técnicas: Haga Clic para Ver Especificaciones</h2>
+            <div class="epp-galeria">
+                
+                <article class="epp-tarjeta" data-epp="casco">
+                    <img src="img/casco.jpg" alt="Casco Estructural de Bombero">
+                    <h3>Casco Estructural</h3>
+                    <p class="click-label"><i class="fas fa-eye"></i> Ver Ficha Técnica</p>
+                </article>
+
+                <article class="epp-tarjeta" data-epp="traje">
+                    <img src="img/traje.jpg" alt="Traje de Aproximación">
+                    <h3>Traje Estructural</h3>
+                    <p class="click-label"><i class="fas fa-eye"></i> Ver Ficha Técnica</p>
+                </article>
+
+                <article class="epp-tarjeta" data-epp="scba">
+                    <img src="img/scba.jpg" alt="Aparato de Respiración Autónoma (SCBA)">
+                    <h3>SCBA (Equipo Respiratorio)</h3>
+                    <p class="click-label"><i class="fas fa-eye"></i> Ver Ficha Técnica</p>
+                </article>
+
+                <article class="epp-tarjeta" data-epp="guantes">
+                    <img src="img/guantes.jpg" alt="Guantes de Protección">
+                    <h3>Guantes de Protección</h3>
+                    <p class="click-label"><i class="fas fa-eye"></i> Ver Ficha Técnica</p>
+                </article>
+
+                <article class="epp-tarjeta" data-epp="botas">
+                    <img src="img/botas.jpg" alt="Botas de Bombero Estructural">
+                    <h3>Botas de Bombero</h3>
+                    <p class="click-label"><i class="fas fa-eye"></i> Ver Ficha Técnica</p>
+                </article>
+                
+            </div>
+        </section>
+        
+        <hr class="separador">
+
+        <section class="seccion-principal epp-info-ficha" id="info-ficha">
+            <h2><i class="fas fa-file-invoice"></i> Especificaciones Técnicas y Estándares</h2>
+            <div id="ficha-contenido">
+                <p class="mensaje-inicial">Seleccione un elemento de EPP de la galería superior para ver su información detallada.</p>
+            </div>
+        </section>
+
+        <hr class="separador">
+        
+        <section class="seccion-principal multimedia-section">
+            <h2><i class="fas fa-video"></i> Entrenamiento Multimedia</h2>
+            <div class="video-container">
+                
+                <div class="video-item">
+                    <h3>Equipamiento de Bombero estructural/urbano</h3>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/U8qXZJHpQww" title="Equipamiento de Bombero estructural/urbano" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>En este video se hace un recorrido por el equipo de intervención, mostrando herramientas adicionales y el uso de algunos elementos como el casco y los guantes.</p>
+                </div>
+
+                <div class="video-item">
+                    <h3>Exposición por alumnos del 7mo cuatrimestre</h3>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/i-TdKWnKhbQ" title="EPP de bomberos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Detalles sobre las partes del SCBA, la importancia de su presión positiva y cómo se mantiene la autonomía de aire en ambientes tóxicos.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desarrollo por David Montaño Hernandez | Basado en Normativas NFPA, ISO y EN.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
